@@ -20,8 +20,9 @@ jobs:
           preprocess_bin="$PWD/autogenerate"
           save_to="content/posts/"
           cd "$save_to"
-          $preprocess_bin > $ISSUE_ID.md
-          $POST_BODY > $ISSUE_ID.md
+          $preprocess_bin > $ISSUE_ID.md << EOF
+          $POST_BODY
+          EOF
           
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
@@ -29,7 +30,7 @@ jobs:
           delete-branch: true
           title: "publish: ${{ github.event.issue.title}}"
           body: |
-            publish to: https://lgbt.sh/posts/${{ github.event.issue.title }}
+            Publish to: https://lgbt.sh/posts/${{ github.event.issue.title }}
 
             Closes #${{ github.event.issue.number }}
           reviewers: "${{ github.repository_owner }}"
