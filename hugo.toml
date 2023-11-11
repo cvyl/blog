@@ -1,4 +1,4 @@
-baseURL = "https://blog.lgbt.sh/"
+baseURL = "https://dev.lgbt.sh/blog"
 DefaultContentLanguage = "en" # Theme's display language, supports: en, fr, zh, zh-hant
 languageCode = "en-us"
 title = "@ly-nld's blog"
@@ -38,8 +38,8 @@ description = "My little diary"  # will set 'og:description'
   client_id = "your client id"
   client_secret = "your client secret"
 [taxonomies]
-   tag = "tags"
-   category = "categories"
+   tag = "/blog/tags"
+   category = "/blog/categories"
 
 [params.utterances]
 repo="your repo"
