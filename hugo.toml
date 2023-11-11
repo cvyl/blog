@@ -49,17 +49,17 @@ theme="github-light"
 
 # Please visit https://giscus.app/ to generate settings.
 [params.giscus]
-    data-repo="ly-nld/blog"
-    data-repo-id="R_kgDOKsVEKQ"
-    data-category="General"
-    data-category-id="DIC_kwDOKsVEKc4Ca4cF"
-    data-mapping="pathname"
-    data-strict="0"
-    data-reactions-enabled="1"
-    data-emit-metadata="0"
-    data-input-position="bottom"
-    data-theme="preferred_color_scheme"
-    data-lang="en"
+    data_repo="ly-nld/blog"
+    data_repo_id="R_kgDOKsVEKQ"    
+    data_category="General"
+    data_category_id="DIC_kwDOKsVEKc4Ca4cF"
+    data_mapping="pathname"
+    data_strict="0"
+    data_reactions_enabled="1"
+    data_emit_metadata="0"
+    data_input_position="bottom"
+    data_theme="preferred_color_scheme"
+    data_lang="en"
     crossorigin="anonymous"
 
 
