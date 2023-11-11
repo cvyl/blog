@@ -15,12 +15,12 @@ jobs:
         env:
           POST_TITLE: ${{ github.event.issue.title }}
           POST_BODY: ${{ github.event.issue.body }}
+          ISSUE_ID: ${{ github.event.issue.id}}
         run: |
-          preprocess_bin="$PWD/frontmatterify"
-          save_to="content/posts/$POST_TITLE"
-          mkdir "$save_to"
+          preprocess_bin="$PWD/autogenerate"
+          save_to="content/posts/"
           cd "$save_to"
-          $preprocess_bin > index.md << EOF
+          $preprocess_bin > $ISSUE_ID.md << EOF
           $POST_BODY
           EOF
           
