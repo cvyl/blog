@@ -18,6 +18,7 @@ while read line; do
         echo "date = \"$(date -I)\""
         echo "category = auto-generated"
         echo "+++"
+        echo ""
         break
     elif [[ "$line" =~ ^[\-+]{3} ]]; then # Frontmatter, emit it verbatim
         echo $line
