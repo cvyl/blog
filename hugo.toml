@@ -2,7 +2,7 @@ baseURL = "https://blog.lgbt.sh/"
 DefaultContentLanguage = "en" # Theme's display language, supports: en, fr, zh, zh-hant
 languageCode = "en-us"
 title = "@ly-nld's blog"
-copyright = "如无特殊说明，本站文章采用 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0 协议</a>许可"
+copyright = ""
 theme = "diary"
 # googleAnalytics = "UA-123-45"
 
@@ -59,6 +59,7 @@ theme="github-light"
     data_emit_metadata="0"
     data_input_position="bottom"
     data_theme="preferred_color_scheme"
+    data_lang="en"
     crossorigin="anonymous"
 
 
