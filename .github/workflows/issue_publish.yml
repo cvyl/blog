@@ -15,12 +15,11 @@ jobs:
         env:
           POST_TITLE: ${{ github.event.issue.title }}
           POST_BODY: ${{ github.event.issue.body }}
-          ISSUE_ID: ${{ github.event.issue.id}}
         run: |
           preprocess_bin="$PWD/autogenerate"
           save_to="content/posts/"
           cd "$save_to"
-          $preprocess_bin > $ISSUE_ID.md << EOF
+          $preprocess_bin > $POST_TITLE.md << EOF
           $POST_BODY
           EOF
           
