@@ -14,4 +14,4 @@ My mother believes I am just procrastinating, like she always thinks when I am u
 
 I feel like this world doesn't understand mental disorders.
 
-![sad](../../static/images/twitdownload.jpg)
+![img](/images/twitdownload.jpg)
