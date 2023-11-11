@@ -13,3 +13,5 @@ Unfortunately, due to sickness, it wasn't really possible for me to concentrate.
 My mother believes I am just procrastinating, like she always thinks when I am unable to do something due to mental issues.
 
 I feel like this world doesn't understand mental disorders.
+
+![sad](../../static/images/twitdownload.jpg)
