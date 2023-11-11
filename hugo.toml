@@ -1,8 +1,8 @@
-baseURL = "http://example.org/"
+baseURL = "https://blog.lgbt.sh/"
 DefaultContentLanguage = "en" # Theme's display language, supports: en, fr, zh, zh-hant
 languageCode = "en-us"
-title = "A Hugo Site"
-copyright = "This is a customized copyright."
+title = "@ly-nld's blog"
+copyright = "如无特殊说明，本站文章采用 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">CC BY 4.0 协议</a>许可"
 theme = "diary"
 # googleAnalytics = "UA-123-45"
 
@@ -19,18 +19,18 @@ theme = "diary"
     tabWidth = 4
 
 [params]
-subtitle = "Themed by Diary."
+subtitle = ""
 enableGitalk = false
 enableGiscus = true
 
 # Microsoft Clarity (https://clarity.microsoft.com/) is a free user behavior recording and analytics tool
-clarity = "abcdefghzd"
+# clarity = "abcdefghzd"
 
 # Twitter Card and Open Graph settings
 enableOpenGraph = true
 enableTwitterCards = true
-title = "My Blog" # will set 'og:site_name'
-description = "My HomePage Description"  # will set 'og:description'
+title = "@ly-nld's blog" # will set 'og:site_name'
+description = "My little diary"  # will set 'og:description'
 
 [params.gitalk]
   owner = "user"
@@ -49,17 +49,17 @@ theme="github-light"
 
 # Please visit https://giscus.app/ to generate settings.
 [params.giscus]
-    data_repo="username/repo"
-    data_repo_id="**************************"    
-    data_category="General"
-    data_category_id="*********************"
-    data_mapping="pathname"
-    data_strict="0"
-    data_reactions_enabled="1"
-    data_emit_metadata="0"
-    data_input_position="bottom"
-    data_theme="preferred_color_scheme"
-    data_lang="en"
+    data-repo="ly-nld/blog"
+    data-repo-id="R_kgDOKsVEKQ"
+    data-category="General"
+    data-category-id="DIC_kwDOKsVEKc4Ca4cF"
+    data-mapping="pathname"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="bottom"
+    data-theme="preferred_color_scheme"
+    data-lang="en"
     crossorigin="anonymous"
 
 
