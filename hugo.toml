@@ -38,8 +38,8 @@ description = "My little diary"  # will set 'og:description'
   client_id = "your client id"
   client_secret = "your client secret"
 [taxonomies]
-   tag = "/blog/tags"
-   category = "/blog/categories"
+   tag = "/tags"
+   category = "/categories"
 
 [params.utterances]
 repo="your repo"
