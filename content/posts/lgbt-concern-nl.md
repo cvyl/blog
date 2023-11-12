@@ -2,8 +2,7 @@
 title: "The Impact of Political Stances on the Transgender Community in the Netherlands"
 date: 2023-11-12T17:11:30+01:00
 draft: false
-categories: Society
-tags: [lgbtq, transgender]
+tags: [lgbtq, transgender, society]
 featured_image: "/images/lgbtflag.jpg"
 comment : false
 ---

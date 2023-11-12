@@ -1,7 +1,7 @@
 +++
 title = "これはテストです"
 date = "2023-11-12"
-categories = 'auto-generated'
+tags = 'auto-generated'
 +++
 
 Test

@@ -2,7 +2,6 @@
 title: "She doesn't understand me."
 date: 2023-11-11T23:14:54+01:00
 draft: false
-categories: English
 tags: vent
 ---
 

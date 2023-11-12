@@ -13,7 +13,7 @@ Knows how to use wires and such.【Electrical Engineer】
 
 Gamer-man from the Yabujin-country.
 
-## [Amadeo](https://t.me/nekobroadcast)
+## [Amadeo](#NONE)
 
 We've been friends for over a few years, I am sorry that I haven't been talking to you as much.
 
