@@ -1,4 +1,4 @@
-baseURL = "https://dev.lgbt.sh/blog"
+baseURL = "https://blog.lgbt.sh/"
 DefaultContentLanguage = "en" # Theme's display language, supports: en, fr, zh, zh-hant
 languageCode = "en-us"
 title = "@ly-nld's blog"
