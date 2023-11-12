@@ -22,7 +22,7 @@ It is vital to address how political propaganda and nit-picking tactics are appl
 
 In the face of such challenges, it becomes imperative for the LGBTQ+ community and its allies to be informed and engaged. Platforms like RainbowVote ([rainbowvote.nu](https://rainbowvote.nu/)) play a vital role in empowering individuals with the knowledge needed to make informed decisions during the elections.
 
-### Exposing Anti-LGBTQI+ Propaganda
+### Exposing Anti-LGBTQ+ Propaganda
 
 Recent incidents, such as this FvD advertisement [here](https://www.reddit.com/r/LHBTI/comments/17tg4zm), have come under scrutiny for promoting anti-LGBTQ+ sentiments. This Reddit post highlights the importance of vigilance and the need to counteract misleading narratives that can adversely affect the transgender community.
 
