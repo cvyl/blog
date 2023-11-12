@@ -16,7 +16,24 @@ while read line; do
         echo "+++"
         echo "title = \"$(echo -n ${BASH_REMATCH[1]} | tr -d '\n\r')\"" # omg avoid printing EOL
         echo "date = \"$(date -I)\""
-        echo "categories = 'auto-generated'"
+
+        # Check for the second line category
+        read second_line
+        if [[ "$second_line" =~ ^##([^#]{1}.*) ]]; then
+            echo "categories = '$(echo -n ${BASH_REMATCH[1]} | tr -d '\n\r')'"
+        else
+            echo "categories = 'auto-generated'"
+        fi
+
+        # Check for the third line tags
+        read third_line
+        if [[ "$third_line" =~ ^###([^#]{1}.*) ]]; then
+            tags=$(echo -n ${BASH_REMATCH[1]} | tr -d '\n\r' | sed 's/,/","/g')
+            echo "tags = [\"$tags\"]"
+        else
+            echo "tags = []"
+        fi
+
         echo "+++"
         break
     elif [[ "$line" =~ ^[\-+]{3} ]]; then # Frontmatter, emit it verbatim
@@ -24,6 +41,7 @@ while read line; do
         break
     fi
 done
+
 
 # Process the body
 while read line; do
