@@ -49,6 +49,18 @@ We used to talk often, but things went wrong along the way.
 
 We don't talk often but I really hope you're doing better in life.
 
+# People I miss
+
+## [Ray(?)](https://twitter.com/@remivent)
+
+We used to talk about serious topics, although not much. I hope you're in a better place.
+*Last message: 2022-12-07*
+
+## [PumaTwins](https://reddit.com/u/pumatwins)
+
+We talked on Twitter every so often and I remember your shock when you found out our age-gap haha.
+*Last message: 2022-1?-??*
+
 # Communities
 
 ## MtF.wiki
