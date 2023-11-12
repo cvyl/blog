@@ -13,10 +13,14 @@ jobs:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
       - name: Respond to "idea" label
         run: |
           echo "Thank you for your suggestion 💜" > response.txt
           echo "ありがとうございます。ご提案いただきありがとうございます 💜" >> response.txt
           echo "谢谢您的建议 💜" >> response.txt
           
+          cd $GITHUB_WORKSPACE
           cat response.txt | gh issue comment ${{ github.event.issue.number }} --body -
