@@ -1,0 +1,31 @@
+name: Respond to New Idea Label
+
+on:
+  issues:
+    types: ['labeled']
+
+jobs:
+  respond-to-idea:
+    if: ${{ github.event.label.name == 'idea' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set up Git
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.x'
+
+      - name: Install GitHub CLI
+        run: |
+          sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key C99B11DEB97541F0
+          sudo apt-add-repository https://cli.github.com/packages
+          sudo apt update
+          sudo apt install gh
+
+      - name: Respond to "idea" label
+        run: |
+          echo "Thank you for your suggestion 💜" > response.txt
+          echo "ありがとうございます。ご提案いただきありがとうございます 💜" >> response.txt
+          echo "谢谢您的建议 💜" >> response.txt
+          
+          gh issue comment ${{ github.event.issue.number }} --body "$(cat response.txt)"
