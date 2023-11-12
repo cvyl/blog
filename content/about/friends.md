@@ -62,7 +62,7 @@ This map is important to remember that everywhere in this world, queer people ex
 
 ## Anti-Dysphoria
 
-Anti-Dysphoria ([antidysphoria.carrd.co](https://antidysphoria.carrd.co/)) is a cute website to easy one's anxiety with dysphoria.
+Anti-Dysphoria ([antidysphoria.carrd.co](https://antidysphoria.carrd.co/)) is a cute website to easy one's anxiety with dysphoria。
 
 
 
