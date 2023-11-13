@@ -1,6 +1,7 @@
 ---
 title: "The Privacy Perils of Discord: A Closer Look"
 date: 2023-11-13T00:27:13+01:00
+description: "The privacy risks of Discord, analyzing its policies, and government interactions."
 tags: [privacy, discord]
 comment: false
 ---

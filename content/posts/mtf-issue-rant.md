@@ -2,6 +2,7 @@
 title: "Gender Dysphoria Rant"
 date: 2023-11-13T14:51:33+01:00
 tags: [lgbtq, transgender, society]
+description: "Just a casual rant about being MtF and dealing with gender dysphoria."
 comment: false
 ---
 
