@@ -41,6 +41,10 @@ Kind woman that is my virtual grandma.
 
 Glad we've become friends going all the way back to 2017(?).
 
+## [simba975](https://www.youtube.com/channel/UCan18hBBZFyxGDtpsIYy0XQ)
+
+A person to talk about various topics with.
+
 ## [revive4770](https://twitter.com/revive4770)
 
 We used to talk often, but things went wrong along the way.
