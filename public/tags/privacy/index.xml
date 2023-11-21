@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>privacy on @ly-nld&#39;s blog</title>
+    <link>https://blog.lgbt.sh/tags/privacy/</link>
+    <description>Recent content in privacy on @ly-nld&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Mikka 2023 - 2023</copyright>
+    <lastBuildDate>Mon, 13 Nov 2023 00:27:13 +0100</lastBuildDate><atom:link href="https://blog.lgbt.sh/tags/privacy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Privacy Perils of Discord: A Closer Look</title>
+      <link>https://blog.lgbt.sh/posts/discord-privacy/</link>
+      <pubDate>Mon, 13 Nov 2023 00:27:13 +0100</pubDate>
+      
+      <guid>https://blog.lgbt.sh/posts/discord-privacy/</guid>
+      <description>In the past 7 years, Discord has emerged as a popular platform for communication, particularly within gaming communities and social circles. However, beneath its user-friendly interface lies a complex web of privacy concerns that users should be aware of.
+Discord&amp;rsquo;s Privacy Policy: A Critical Examination Discord&amp;rsquo;s Privacy Policy (Discord Privacy Policy) outlines the platform&amp;rsquo;s practices regarding user data. While the document is comprehensive, the devil often lies in the details. People should pay attention to data collection, storage, and sharing policies to understand the extent of their digital footprint on the platform.</description>
+    </item>
+    
+  </channel>
+</rss>
