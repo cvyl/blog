@@ -2,7 +2,7 @@ baseURL = "https://blog.lgbt.sh/"
 DefaultContentLanguage = "en" # Theme's display language, supports: en, fr, zh, zh-hant
 languageCode = "en-us"
 title = "@ly-nld's blog"
-copyright = "© Mikka 本站遵循 CC-BY-NC 4.0 协议"
+copyright = "Mikka 本站遵循 CC-BY-NC 4.0 协议"
 theme = "diary"
 # googleAnalytics = "UA-123-45"
 
