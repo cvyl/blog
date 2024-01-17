@@ -79,7 +79,7 @@ url = "/about/mikka"
 name = "About me"
 weight = 5
 [[menu.main]]
-url = "https://lgbt.sh"
+url = "https://mikka.lgbt.sh"
 name = "Profile Card"
 weight = 6
 [[menu.main]]
