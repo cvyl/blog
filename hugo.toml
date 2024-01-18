@@ -1,7 +1,7 @@
-baseURL = "https://blog.lgbt.sh/"
+baseURL = "https://blog.cvyl.me/"
 DefaultContentLanguage = "en" # Theme's display language, supports: en, fr, zh, zh-hant
 languageCode = "en-us"
-title = "@ly-nld's blog"
+title = "@cvyl's blog"
 copyright = "Mikka 本站遵循 CC-BY-NC 4.0 协议"
 theme = "diary"
 # googleAnalytics = "UA-123-45"
@@ -28,7 +28,7 @@ enableGitalk = false
 # Twitter Card and Open Graph settings
 enableOpenGraph = true
 enableTwitterCards = true
-title = "@ly-nld's blog" # will set 'og:site_name'
+title = "@cvyl's blog" # will set 'og:site_name'
 description = "My little diary"  # will set 'og:description'
 
 [params.gitalk]
@@ -79,8 +79,8 @@ url = "/about/mikka"
 name = "About me"
 weight = 5
 [[menu.main]]
-url = "https://mikka.lgbt.sh"
-name = "Profile Card"
+url = "https://cvyl.me"
+name = "Homepage"
 weight = 6
 [[menu.main]]
 url = "/index.xml"
